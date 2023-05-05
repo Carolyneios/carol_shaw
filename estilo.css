@@ -1,0 +1,163 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+
+
+body{
+    margin: 90px;
+    background-image: url(https://ohsewcrafty.co.uk/102500-large_default/100-cotton-digital-fabric-pixel-blocks-minecraft-crafty-140cm-wide.jpg);
+}
+
+h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 20vh;
+    color:rgb(255, 255, 255);
+    margin-bottom: 30vh;
+    text-shadow: 
+    -1px -1px 0px #000000, 
+    -1px 2px 0px #000000,                    
+     2px -1px 0px #000000,                  
+     2px 9px 0px #000000;
+}
+    
+    
+h2{
+   font-size:50px;
+    text-align: center;
+    margin-top: 20px ;
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+
+p{
+   
+   text-align: justify;
+   text-align: center;
+   padding: 60px;
+   font-size: 20px;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.text{
+   background-color: white;
+   padding: 30px;
+}
+
+
+
+/*PARALAX*/
+
+
+.wrapper{
+    width: 100%;
+    margin: 0;
+    
+  }
+  
+  main{
+    display: block;
+  
+  }
+  
+  .container{
+     border-radius: 0px 0px  20px 30px;
+     max-width: 100%;
+     width: 100%;
+     background-color: rgb(255, 255, 255);
+     padding: 40px;
+     
+  }
+
+  .container1{
+    
+     max-width: 100%;
+     width: 100%;
+     background-color: rgb(255, 255, 255);
+     padding: 40px;
+     
+  }
+  
+  section.module p{
+     margin-bottom: 40px;
+  }
+  
+  section.module:last-child{
+     margin-bottom: 0;
+     
+  }
+  
+  section.module h2{
+     margin-top: 20px;
+     font-size: 30px;
+     text-align: center;
+     margin-bottom: 20px;
+  }
+  
+  section.module.content{
+     padding: 0;
+     
+  }
+  
+  section.module.parallax{
+     display: flex;
+     position: relative;
+     flex-direction: column;
+     justify-content: center;
+     height: 50vh;
+     width: 100%;
+     overflow: hidden;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: 50% 50%;
+     background-attachment: fixed;
+     -webkit-background-size:cover ;
+     -moz-background-size:cover;
+     -o-background-size:cover;
+  }
+  
+  section.module.parallax::after{
+     content: "";
+     height: 100%;
+     position: absolute;
+     width: 100%;
+     z-index: 0;
+    
+  
+  }
+  
+
+  
+  section.module.parallax-1{
+     background-image:url(https://imgix.bustle.com/uploads/image/2022/12/9/e59a3c26-79b7-4490-b0be-862d2641a7f5-a920d0d3-1085-4e80-821f-d598109c7206-river-raid-header.jpeg?w=1200&h=630&fit=crop&crop=faces&fm=jpg) ;
+  }
+
+  section.module.parallax-2{
+    background-image: url(https://images.t-online.de/2022/10/xbM0d-RXTsu0/0x0:581x327/fit-in/1800x0/atari-breakout-quelle-gamedistribution.jpg); }
+
+    section.module.parallax-3{
+      background-image: url(Sem\ título.png); 
+  
+
+
+  }
+
+
+
+/*______________________________FOOTER_____________________________*/
+
+
+footer{
+   
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 30px;
+}
+
+a{
+   color: rgb(236, 83, 200);
+}
